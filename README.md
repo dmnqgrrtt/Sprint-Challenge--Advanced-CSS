@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive display used hardcore fixed units where objects will be styles with exact measurements at specific media breakpoint, whereas a fully responsive display will use responsive units such as a percentage so objects will re-size to fit the screen of any device being used and will adjust to every pixel size of a screen with each media breakpoint.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first site are designed with min-width properties so the initial site created is designed to fit a mobile sized devices, whereas desktop first are designed with max-width properties so the initial site is designed for desktop or larger.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It makes it so that the universal font sice for the page is 10px. the default pixel size is 16px, 62.5% of that is 10. That way when setting measurements with rems we can work in powers of 10 and makes it easier to design.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+I would describe preprocessing as a way tp shorten time and typing in designing a css file. It allows for the introduction of shortcuts such as, variables, mixins, and escaping so that there is no need to type the same attribute over and over. It also allows for easy changes to the code later on. FOr example if you set a vaiable with a color, you now can just change the color of the variable and it will adjust the color everywhere throughout the site instead of having to go through the entire css and replacing the color everywhere it was used.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concet is the mixins because alot of times many elememts are styled the same with many attributes. So instead of having type all those attributes repeatedly I can  create a mixin and used that over and over. Nesting gives me the most trouble because I often forget the elemets nested in still receive all of the attributes of the parent element and it throws off my styling at times.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

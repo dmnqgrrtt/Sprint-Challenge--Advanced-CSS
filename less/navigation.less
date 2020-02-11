@@ -1,1 +1,36 @@
 // Navigation code here
+.top-bar {
+    background: @nav-bg;
+    text-align: center;
+    margin: 1% 15% 0 15%;
+    padding: 1%;
+    border-bottom: 1px solid @nav-border;
+
+    @media @phone {
+        width: 100%;
+        margin: 1% auto 0;
+    }
+
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .nav-box {
+        .center();
+
+        .nav-bar {
+            width: 450px;
+            .space-out();
+            
+
+            a {
+               font-size: 1.6rem;
+               text-decoration: none;
+               color: @nav-font; 
+            }
+        }
+    }
+
+   
+}
